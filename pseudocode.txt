@@ -4,3 +4,17 @@ Deskripsi :
 
 Var string = nama, tempat_tgl_lahir, alamat, email, password
 Var integer = nik, pasien
+
+While pasien < 1
+Write ( Halaman Login )
+Write ( Masukan Email Anda )
+Input ( email )
+Write ( Masukan Password Anda )
+Input ( password )
+IF ( email && password == TRUE )
+    goto ( Form Data Pasien )
+ELSE IF ( email && password == FALSE )
+    Write ( Email atau password yang anda masukan salah. )
+    goto ( Halaman Login )
+ELSE
+    Write ( Akun belum terdaftar )
