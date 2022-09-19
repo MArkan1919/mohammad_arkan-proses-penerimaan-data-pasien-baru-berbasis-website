@@ -32,3 +32,6 @@ IF ( nama && nik && tempat_tgl_lahir && alamat == NULL )
     goto ( Menampilkan Form Data Pasien )
 ELSE
     goto ( Halaman Cetak Kartu Pasien )
+
+PRINT Kartu_Pasien.pdf
+EndWhile
