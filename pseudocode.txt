@@ -1,1 +1,6 @@
 Title = Program Proses_Penerimaan_Data_Diri_Pasien_Baru_Berbasis_Website
+
+Deskripsi :
+
+Var string = nama, tempat_tgl_lahir, alamat, email, password
+Var integer = nik, pasien
