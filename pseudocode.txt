@@ -18,3 +18,17 @@ ELSE IF ( email && password == FALSE )
     goto ( Halaman Login )
 ELSE
     Write ( Akun belum terdaftar )
+
+Write ( Menampilkan Form Data Pasien )
+Write ( Masukan Nama Anda )
+Input ( nama )
+Write ( Masukan NIK Anda )
+Input ( nik )
+Write ( Masukan Tempat/Tgl lahir Anda )
+Input ( tempat_tgl_lahir )
+Write ( Masukan Alamat Anda )
+Input ( alamat )
+IF ( nama && nik && tempat_tgl_lahir && alamat == NULL )
+    goto ( Menampilkan Form Data Pasien )
+ELSE
+    goto ( Halaman Cetak Kartu Pasien )
